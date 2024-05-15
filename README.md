@@ -29,5 +29,7 @@ CREATE TABLE `Users` (
   `date` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 ```
+niestety duża część kodu zawiera hardcoded domeny, więc może się pojawić mieszanka sj2.zndev.xyz i sj2r.zndev.pl
 
+oczywiscie oby dwie domeny wygasly wiec do niczego was to nie poprowadzi
 ZRD - 2024
