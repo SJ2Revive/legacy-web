@@ -1,0 +1,91 @@
+@import url("font.css");
+body {
+    background-color: #3a4750;
+    background: url(/img/bg.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.soondiv {
+    background-color: #30384175;
+    position: absolute;
+    top: 10%;
+    text-align: center;
+    color: white;
+    width:100%;
+    left: 0%;
+}
+
+.maindiv {
+    background-color: #303841b9;
+    position: absolute;
+    top: 5%;
+    text-align: center;
+    color: white;
+    width:70%;
+    left: 15%;
+    align-items: center;
+}
+.mod-div {
+    background-color: #ff70453d;
+    top: 50%;
+    text-align: center;
+    color: white;
+    width: 22%;
+    right: 50%;
+    float:left;
+    align-items: center;
+    margin-right: 40px;
+    margin-top: 30px;
+    padding: 5px;
+}
+.mod-present {
+    background-color: #30384167;
+    position: absolute;
+    top: 10%;
+    color: white;
+    width:45%;
+    text-align: center;
+    left: 30%;
+    font-size-adjust: auto;
+
+}
+a {
+    color: rgb(0, 183, 255);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(51, 51, 51, 0.5);
+    border-radius: 9px;
+}
+li {
+    float:left;
+    transition-duration: 0.5s;
+}
+li:hover{
+    background-color: rgba(0, 0, 0, 0.473);
+
+
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+button {
+    border-radius: 6px;
+    padding: 8px 32px;
+    background-color: rgba(0, 0, 0, 0.575);
+    transition-duration: 0.5s;
+    color:rgb(255, 255, 255);
+}
+button:hover{
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+}
